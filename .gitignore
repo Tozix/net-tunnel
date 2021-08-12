@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+net-tunnel
 
 # Test binary, built with `go test -c`
 *.test

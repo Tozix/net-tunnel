@@ -1,0 +1,31 @@
+{
+    "client": {
+        "Servers": [ "90.188.116.11"],
+        "TunnelPort": "80",
+        "LocalPort": "5555",
+        "LocalAdress":       "127.0.0.1",
+        "Dom":       "m.youtube.com",
+		"TargetUrl":    "/tunnel",
+		"CrtFile":      "",
+		"TokenCookieA": "cna",
+		"TokenCookieB": "_tb_token_",
+		"TokenCookieC": "_cna",
+		"UserAgent":    "BradburyLab (samsung_dreamqltevl; SM-G930L; Android; 5.1.1) 7.15.0 (22064)",
+		"WsObf":        false,
+		"TlsVerify":    true
+    },
+    "server": {
+        "Port": ":80",
+        "Target":       "127.0.0.1:5555",
+		"Dir":    "./www",
+		"TokenCookieA": "cna",
+		"TokenCookieB": "_tb_token_",
+		"tokenCookieC": "_cna",
+		"HeaderServer":    "nginx",
+        "WsObf":        false,
+        "OnlyWs":       false,
+        "CrtFile":      "server.crt",
+        "KeyFile":         "server.key"
+      }
+  }
+  
